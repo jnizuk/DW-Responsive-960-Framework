@@ -1,0 +1,175 @@
+/*
+* Last updated by Joey Nizuk of Diamond Wood | 11/14/2013
+* Site designed and developed for "Company/project/client name"
+* Author: Diamond Wood | URL: http://godwweb.com
+* Anything not included within either open source framework is Proprietary.
+*/
+/*
+* Stan Grid 1.0 / 5/1/2013
+* Author: Stanislav Kostadinov | URL: http://stanislav.it
+* Based on Skeleton V1.2
+* Free to use in any personal or commercial projects with no restrictions.
+*/
+/*
+* Copyright 2011, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 6/20/2012
+*/
+
+
+/* Table of Content
+==================================================
+	#Basic Styles
+	#Images
+	#Buttons
+	#Typography
+	#Links
+	#Forms
+	#Misc 
+	#Website Bands
+	#Header
+	#Banner
+	#Content
+	#Footer
+	#Home Page
+	#Add. Pages
+	*/
+
+
+/* #basic styles
+================================================== */
+body {
+	margin:0;
+	padding:0;
+	background: #fff;
+	font: 14px/21px sans-serif, Arial;
+	color: #444;
+	-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */	
+	-webkit-text-size-adjust: 100%;
+}
+
+/* #images
+================================================== */
+#imageResponse{max-width: 100%;height: auto}
+
+
+/* #buttons
+================================================== */
+.button {letter-spacing:4px; padding: 10px 25px;}
+
+/*--- Button Styles ---*/
+.orange{
+	text-shadow:1px 1px 0 #ffe8b2;
+	color:#7c5d1b;
+	border:1px solid #d6a437;
+	background:#febd4b;
+	background:-webkit-gradient(linear,0 0,0 100%,from(#fed970) to(#febd4b));
+	background:-webkit-linear-gradient(#fed970,#febd4b);
+	background:-moz-linear-gradient(#fed970,#febd4b);
+	background:-ms-linear-gradient(#fed970,#febd4b);
+	background:-o-linear-gradient(#fed970,#febd4b);
+	background:linear-gradient(#fed970,#febd4b);
+	-pie-background:linear-gradient(#fed970,#febd4b)
+	}
+	
+	.orange:hover{
+		color:#7c5d1b;
+		border:1px solid #d6a437;
+		background:#febd4b;
+		background:-webkit-gradient(linear,0 0,0 100%,from(#febd4b) to(#fed970));
+		background:-webkit-linear-gradient(#febd4b,#fed970);
+		background:-moz-linear-gradient(#febd4b,#fed970);
+		background:-ms-linear-gradient(#febd4b,#fed970);
+		background:-o-linear-gradient(#febd4b,#fed970);
+		background:linear-gradient(#febd4b,#fed970);
+		-pie-background:linear-gradient(#febd4b,#fed970)
+		}
+
+	
+/* #Typography
+================================================== */
+h1, h2, h3, h4, h5, h6 {
+		font-weight: normal;
+}
+
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
+
+h1 {
+	font-size: 42px;
+	color: #465258;
+	margin-bottom: 35px;
+	line-height:50px;
+}
+
+h2 { 
+	font-size: 24px;
+	line-height: 22px;
+	color: #465258;
+}
+
+h3 {
+	font-size: 21px;
+	color: #465258;
+	letter-spacing:1px;
+}
+
+h4 {
+	font-size: 18px;
+	color: #465258;
+	letter-spacing:1px;
+}
+
+
+p {
+	font-size: 16px;
+	line-height: 28px;
+	color: #999;
+}
+
+/* Caption Text */
+
+site area specific text here
+
+
+/* #Links
+================================================== */
+a, a:visited {
+	color: #333; 
+	text-decoration: none; 
+}
+a:hover, a:focus { color: #ccc; }
+
+/* #Misc.
+================================================== */
+.blue{background-color:#36C}
+.green{background-color:#096}
+.orange{background-color:#C90}
+
+
+/* #Website Bands
+================================================== */
+.band.header{}
+.band.banner{}
+.band.content{}
+.band.footer{}
+
+/* #Header
+================================================== */
+/* nav */
+
+/* #Banner
+================================================== */
+
+/* #Content
+================================================== */
+
+/* #Footer
+================================================== */
+
+/* #Home Page
+================================================== */
+
+/* #Add. Page
+================================================== */
